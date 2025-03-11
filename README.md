@@ -150,7 +150,7 @@
                 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
                     <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
                     <div>
-                        <h2 style="margin: 0;">Montserrat G.</h2>
+                        <h4 style="margin: 0;">Montserrat G.</h4>
                         <p style="margin: 0; font-size: 0.9em; color: #666;">Poble Nou, Manresa</p>
                     </div>
                 </div>
