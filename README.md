@@ -106,7 +106,6 @@
     </footer>
 </body>
 </html>
-<!-- Nova secció amb imatge i telèfon actualitzat -->
 <div style="text-align: center; margin: 40px 0;">
     <h2>🚰 Urgències de fontaneria</h2>
     <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
