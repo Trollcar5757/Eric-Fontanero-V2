@@ -1,5 +1,4 @@
 # Eric-Fontanero-V2
-<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
@@ -107,3 +106,13 @@
     </footer>
 </body>
 </html>
+<!-- Nova secció amb imatge i telèfon actualitzat -->
+<div style="text-align: center; margin: 40px 0;">
+    <h2>🚰 Urgències de fontaneria</h2>
+    <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
+    <p>No esperis més! Contacta amb nosaltres ara mateix:</p>
+    <a href="https://wa.me/34694206969" class="whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp: 694 20 69 69
+    </a>
+    <p style="margin: 10px;">O truca ara: <a href="tel:694206969">694 20 69 69</a></p>
+</div>
