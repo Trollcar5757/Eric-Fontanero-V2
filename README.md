@@ -104,11 +104,11 @@
             <p>Tot va començar el 2010, quan Eric Fontanero, amb una eina a una mà i un desig fervent d’ajudar a la gent a l’altra, va decidir obrir un servei de fontaneria de proximitat al barri de Gràcia (Barcelona). Els primers anys van ser de porta en porta, amb una furgoneta de segona mà i un telèfon mòbil que no deixava de repicar. Eric es va guanyar la confiança dels veïns amb la seva honradesa (mai cobrava sense explicar abans què havia fet) i la seva habilitat quirúrgica per arreglar canonades sense fer forats innecessaris.</p> 
             
             
-<p>El 2015, el negoci va donar el salt definitiu quan Sergi "El Nene" (aleshores un aprenent de 19 anys amb tatuatges de claus anglesos als braços) va proposar crear un servei 24 hores per urgències. Aquesta idea va convertir l’empresa en una llegenda local. La gent explicava com Sergi arribava a les 3 de la matinada, amb ulleres de soldar i una ampolla de coca-cola, per salvar cases inundades.</p> \n\n
+<p>El 2015, el negoci va donar el salt definitiu quan Sergi "El Nene" (aleshores un aprenent de 19 anys amb tatuatges de claus anglesos als braços) va proposar crear un servei 24 hores per urgències. Aquesta idea va convertir l’empresa en una llegenda local. La gent explicava com Sergi arribava a les 3 de la matinada, amb ulleres de soldar i una ampolla de coca-cola, per salvar cases inundades.</p> 
 
 
 <p>El 2018, amb l’ajuda de Ousman "El Guru", un expert en màrqueting que es va unir després de veure Eric arreglar una bassa al seu restaurant preferit, van llançar la campanya "No et neguitegis, nosaltres traiem l’aigua... i les preocupacions". Va ser viral: van aparèixer a ràdios locals i fins i tot van rebre una foto amb un client famós (un actor de "Merlí").</p>
-\n\n
+
 
 <p>El 2020, Said Saido, el "Mestre dels Paperassos", va entrar per posar ordre en el caos administratiu. Gràcies a ell, van deixar de perdre factures entre bosses d’eines i van començar a tenir certificacions oficials. La seva frase famosa: "Una canonada ben instal·lada comença per un contracte ben signat".</p>
 
