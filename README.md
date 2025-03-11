@@ -10,6 +10,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
         }
         
         .container {
@@ -18,37 +19,42 @@
             padding: 20px;
         }
 
-        /* Seccions d'amplada completa - Millorat */
-        .full-width {
-            width: 100%;
-        }
-
-        /* Fons comú per història i equip - Corregit */
-        .seccio-fons {
-            background: #f9f9f9;
-            padding: 40px 0;
-            margin-left: calc(-50vw + 50%);
-            margin-right: calc(-50vw + 50%);
+        /* Capçalera i footer - CORREGIT */
+        header, footer {
+            position: relative;
             width: 100vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            overflow-x: hidden;
         }
 
-        /* Ressenyes - Corregit */
-        .resenyes {
-            background: #fff8f0;
-            padding: 40px 0;
-            margin-left: calc(-50vw + 50%);
-            margin-right: calc(-50vw + 50%);
-            width: 100vw;
-        }
-
-        /* Capçalera */
         header {
             background-color: #1a5a99;
             color: white;
             text-align: center;
             padding: 2rem 0;
+        }
+
+        /* Seccions de fons - CORREGIT */
+        .seccio-fons, .resenyes {
+            position: relative;
             width: 100vw;
-            margin-left: calc(-50vw + 50%);
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            overflow-x: hidden;
+            padding: 40px 0;
+        }
+
+        .seccio-fons {
+            background: #f9f9f9;
+        }
+
+        .resenyes {
+            background: #fff8f0;
         }
 
         /* Serveis */
@@ -146,16 +152,13 @@
             color: white;
             text-align: center;
             padding: 20px 0;
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
         }
     </style>
-    <!-- Font Awesome per icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Capçalera -->
-    <header class="full-width">
+    <header>
         <div class="container">
             <h1>Eric Fontanero</h1>
             <p>Fontaneria professional i reparacions d'urgència</p>
@@ -182,7 +185,7 @@
     </div>
 
     <!-- Història -->
-    <div class="full-width seccio-fons">
+    <div class="seccio-fons">
         <div class="container">
             <h2>📜 La nostra història</h2>
             <p>Tot va començar el 2010, quan Eric Fontanero, amb una eina a una mà i un desig fervent d’ajudar a la gent a l’altra, va decidir obrir un servei de fontaneria de proximitat al barri del Xup (Manresa). Els primers anys van ser de porta en porta, amb una furgoneta de segona mà i un telèfon mòbil que no deixava de repicar. Eric es va guanyar la confiança dels veïns amb la seva honradesa (mai cobrava sense explicar abans què havia fet) i la seva habilitat quirúrgica per arreglar canonades sense fer forats innecessaris.</p>
@@ -196,7 +199,7 @@
     </div>
 
     <!-- Equip -->
-    <div class="full-width seccio-fons">
+    <div class="seccio-fons">
         <div class="container">
             <h2>🌟 L'equip que ho fa possible</h2>
             <div class="equip-grid">
@@ -228,7 +231,7 @@
     </div>
 
     <!-- Ressenyes -->
-    <div class="full-width resenyes">
+    <div class="resenyes">
         <div class="container">
             <h2 style="text-align: center; color: #1a5a99;">📣 Que diuen els nostres clients</h2>
             <div class="grid-resenyes">
@@ -288,7 +291,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="full-width">
+    <footer>
         <div class="container">
             <p>© 2025 Eric Fontanero - Certificat N°: HB-694206969</p>
             <p>Truca ara: <a href="tel:694206969" style="color: #25D366; text-decoration: none;">694 20 69 69</a></p>
