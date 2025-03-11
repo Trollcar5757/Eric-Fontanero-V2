@@ -1,4 +1,3 @@
-# Eric-Fontanero-V2
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
