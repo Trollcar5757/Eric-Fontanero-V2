@@ -4,82 +4,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric Fontanero - Fontaneria Professional</title>
     <style>
+        /* Estils generals */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
-        header {
-            background-color: #1a5a99;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-        }
+        
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 40px 0;
-        }
-        .service-card {
-            border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        .historia-equip {
-            background: #f9f9f9;
-            padding: 40px 0;
-            margin: 30px 0;
-        }
-        .equip-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-        .membre-equip {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .alias {
-            color: #1a5a99;
-            font-style: italic;
-            margin: 5px 0;
-        }
-        .whatsapp {
-            background-color: #25D366;
+
+        /* Capçalera amplada completa */
+        header {
+            background-color: #1a5a99;
             color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 20px 0;
+            text-align: center;
+            padding: 2rem 0;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
         }
+
+        /* Secció història amplada completa */
+        .historia-wrapper {
+            background: #f9f9f9;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            padding: 40px 0;
+        }
+
+        /* Peu de pàgina amplada completa */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+            padding: 20px 0;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
         }
+
+        /* Resta d'estils... */
     </style>
 </head>
 <body>
+    <!-- Capçalera -->
     <header>
-        <h1>Eric Fontanero</h1>
-        <p>Fontaneria professional i reparacions d'urgència</p>
+        <div class="container">
+            <h1>Eric Fontanero</h1>
+            <p>Fontaneria professional i reparacions d'urgència</p>
+        </div>
     </header>
-
     <div class="container">
         <!-- Secció Serveis -->
         <h2>📌 Els nostres serveis</h2>
