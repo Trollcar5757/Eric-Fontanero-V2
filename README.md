@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Fontanero S.L - Fontaneria Professional</title>
+    <title>Eric Fontanero - Fontaneria Professional</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,17 +33,28 @@
             border-radius: 8px;
             text-align: center;
         }
-        .contacto {
-            background-color: #f5f5f5;
-            padding: 40px 20px;
+        .historia-equip {
+            background: #f9f9f9;
+            padding: 40px 0;
+            margin: 30px 0;
+        }
+        .equip-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .membre-equip {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
             text-align: center;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+        .alias {
+            color: #1a5a99;
+            font-style: italic;
+            margin: 5px 0;
         }
         .whatsapp {
             background-color: #25D366;
@@ -54,24 +65,24 @@
             display: inline-block;
             margin: 20px 0;
         }
-        .imatge-urgent {
-            width: 100%;
-            max-width: 600px;
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Eric Fontanero S.L</h1>
+        <h1>Eric Fontanero</h1>
         <p>Fontaneria professional i reparacions d'urgència</p>
     </header>
 
     <div class="container">
-        <h2>Els nostres serveis</h2>
+        <!-- Secció Serveis -->
+        <h2>📌 Els nostres serveis</h2>
         <div class="services">
             <div class="service-card">
                 <h3>Reparacions d'urgència</h3>
@@ -87,40 +98,59 @@
             </div>
         </div>
 
-        <!-- Nova secció amb imatge i telèfon actualitzat -->
-        <div style="text-align: center; margin: 40px 0;">
-            <h2>🚰 Urgències de fontaneria</h2>
-            <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
-            <p>No esperis més! Contacta amb nosaltres ara mateix:</p>
+        <!-- Secció Història i Equip -->
+        <div class="historia-equip">
+            <h2>📜 La nostra història</h2>
+            <p>Fundada el 2010 per Eric Fontanero, hem crescut de ser un petit negoci local a convertir-nos en referència del sector gràcies al nostre compromís i professionalitat.</p>
+
+            <h2 style="margin-top: 40px;">🌟 L'equip que ho fa possible</h2>
+            <div class="equip-grid">
+                <div class="membre-equip">
+                    <h3>Said Saido</h3>
+                    <p class="alias">"El Mestre dels Paperassos"</p>
+                    <p>Secretari Executiu<br>Expert en gestió i organització</p>
+                </div>
+
+                <div class="membre-equip">
+                    <h3>Sergi Roca</h3>
+                    <p class="alias">"El Nene"</p>
+                    <p>Vicepresident Operatiu<br>Estratega de camp de batalla</p>
+                </div>
+
+                <div class="membre-equip">
+                    <h3>Eric Fontanero</h3>
+                    <p class="alias">"El Capo"</p>
+                    <p>CEO i Fundador<br>15+ anys salvant llars</p>
+                </div>
+
+                <div class="membre-equip">
+                    <h3>Ousman Diallo</h3>
+                    <p class="alias">"El Guru"</p>
+                    <p>Cap de Màrqueting<br>Geni de les xarxes socials</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Secció Contacte -->
+        <div class="contacto">
+            <h2>📲 Contacte ràpid</h2>
             <a href="https://wa.me/34694206969" class="whatsapp">
                 <i class="fab fa-whatsapp"></i> WhatsApp: 694 20 69 69
             </a>
-            <p style="margin: 10px;">O truca ara: <a href="tel:694206969">694 20 69 69</a></p>
-        </div>
-    </div>
-
-    <div class="contacto">
-        <div class="container">
-            <h2>Contacte ràpid</h2>
-            <a href="tel:694206969" class="whatsapp">
-                <i class="fab fa-whatsapp"></i> Truca ara: 694 20 69 69
-            </a>
-            <p>O omple el formulari i et trucarem:</p>
+            <p style="margin: 20px 0;">O omple el formulari:</p>
             <form>
-                <input type="text" placeholder="Nom" required style="padding: 10px; margin: 5px; width: 80%; max-width: 300px;">
-                <br>
-                <input type="tel" placeholder="Telèfon" required style="padding: 10px; margin: 5px; width: 80%; max-width: 300px;">
-                <br>
-                <button type="submit" style="padding: 10px 20px; margin: 10px; background-color: #1a5a99; color: white; border: none; border-radius: 5px;">
-                    Demana pressupost
+                <input type="text" placeholder="Nom" required style="padding: 10px; width: 80%; max-width: 300px; margin: 5px;">
+                <input type="tel" placeholder="Telèfon" required style="padding: 10px; width: 80%; max-width: 300px; margin: 5px;">
+                <button type="submit" style="background: #1a5a99; color: white; padding: 10px 25px; border: none; border-radius: 5px; margin: 10px;">
+                    Demana ajuda
                 </button>
             </form>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 Eric Fontanero S.L - Fontaneria professional</p>
-        <p>Horari: 24h/365 dies - Certificat oficial N°: 12345678A</p>
+        <p>© 2023 Eric Fontanero - Certificat N°: HB-694206969</p>
+        <p>Truca ara: <a href="tel:694206969" style="color: #25D366; text-decoration: none;">694 20 69 69</a></p>
     </footer>
 </body>
 </html>
