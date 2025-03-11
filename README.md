@@ -106,25 +106,25 @@
             <h2 style="margin-top: 40px;">🌟 L'equip que ho fa possible</h2>
             <div class="equip-grid">
                 <div class="membre-equip">
-                    <h3>Said Saido</h3>
-                    <p class="alias">"El Mestre dels Paperassos"</p>
+                    <h3>Said</h3>
+                    <p class="alias">"Saido"</p>
                     <p>Secretari Executiu<br>Expert en gestió i organització</p>
                 </div>
 
                 <div class="membre-equip">
-                    <h3>Sergi Roca</h3>
+                    <h3>Sergi</h3>
                     <p class="alias">"El Nene"</p>
                     <p>Vicepresident Operatiu<br>Estratega de camp de batalla</p>
                 </div>
 
                 <div class="membre-equip">
-                    <h3>Eric Fontanero</h3>
-                    <p class="alias">"El Capo"</p>
+                    <h3>Eric</h3>
+                    <p class="alias">"El Fontanero"</p>
                     <p>CEO i Fundador<br>15+ anys salvant llars</p>
                 </div>
 
                 <div class="membre-equip">
-                    <h3>Ousman Diallo</h3>
+                    <h3>Ousman</h3>
                     <p class="alias">"El Guru"</p>
                     <p>Cap de Màrqueting<br>Geni de les xarxes socials</p>
                 </div>
@@ -149,7 +149,7 @@
     </div>
 
     <footer>
-        <p>© 2023 Eric Fontanero - Certificat N°: HB-694206969</p>
+        <p>© 2025 Eric Fontanero - Certificat N°: HB-694206969</p>
         <p>Truca ara: <a href="tel:694206969" style="color: #25D366; text-decoration: none;">694 20 69 69</a></p>
     </footer>
 </body>
