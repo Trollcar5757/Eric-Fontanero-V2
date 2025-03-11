@@ -32,7 +32,17 @@
             margin-right: -50vw;
         }
 
-        
+         /* Secció història amplada completa */
+      .historia-wrapper {
+            background: #e6e6e6;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            padding: 40px 0;
+        }
 
         /* Resta d'estils... */
           }
@@ -108,11 +118,7 @@
         </div>
 
         <!-- Secció Història i Equip -->
-        div class="historia-wrapper">
-    
-        /* Secció història amplada completa */
-     <div class="historia-equip" style="background: ##e6e6e6; padding: 50px 0; margin: 40px 0; width: 100%; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; width: 100vw;">
-}
+        
         <div class="historia-equip">
             <h2>📜 La nostra història</h2>
             <p>Tot va començar el 2010, quan Eric Fontanero, amb una eina a una mà i un desig fervent d’ajudar a la gent a l’altra, va decidir obrir un servei de fontaneria de proximitat al barri del Xup (Manresa). Els primers anys van ser de porta en porta, amb una furgoneta de segona mà i un telèfon mòbil que no deixava de repicar. Eric es va guanyar la confiança dels veïns amb la seva honradesa (mai cobrava sense explicar abans què havia fet) i la seva habilitat quirúrgica per arreglar canonades sense fer forats innecessaris.</p> 
