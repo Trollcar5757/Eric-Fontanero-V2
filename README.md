@@ -140,7 +140,7 @@
             </div>
         </div>
 <!-- Secció Ressenyes -->
-<div class="resenyes" style="background: #fff8f0; padding: 60px 30px; margin: 50px 0;">
+<div class="resenyes" style="background: #fff8f0; padding: 50px 20px; margin: 40px 0;">
     <div class="container">
         <h2 style="text-align: center; color: #1a5a99;">📣 Que diuen els nostres clients</h2>
         
@@ -150,7 +150,7 @@
                 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
                     <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
                     <div>
-                        <h4 style="margin: 0;">Montserrat G.</h4>
+                        <h2 style="margin: 0;">Montserrat G.</h2>
                         <p style="margin: 0; font-size: 0.9em; color: #666;">Poble Nou, Manresa</p>
                     </div>
                 </div>
