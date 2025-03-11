@@ -33,16 +33,30 @@
         }
 
         /* Secció història amplada completa */
-        .historia-wrapper {
-            background: #f9f9f9;
-            width: 100vw;
-            position: relative;
-            left: 50%;
-            right: 50%;
-            margin-left: -50vw;
-            margin-right: -50vw;
-            padding: 40px 0;
-        }
+     .historia-wrapper {
+    background: #f9f9f9;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 40px 0 60px; /* Més padding inferior */
+    box-sizing: border-box;
+    overflow: hidden; /* Evita marges col·lapsats */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Afegeix això per connectar sections */
+body {
+    overflow-x: hidden; /* Evita barra desplaçament horitzontal */
+}
+
+.container {
+    position: relative; /* Context de posicionament */
+    z-index: 1; /* Porta el contingut per sobre del fons */
+}
 
         /* Peu de pàgina amplada completa */
         footer {
