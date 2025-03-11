@@ -18,21 +18,17 @@
             padding: 20px;
         }
 
-        /* Seccions d'amplada completa */
+        /* Seccions d'amplada completa - CORREGIT */
         .full-width {
-            width: 100vw;
-            position: relative;
-            left: 50%;
-            right: 50%;
-            margin-left: -50vw;
-            margin-right: -50vw;
+            width: 100%;
             padding: 40px 0;
         }
 
-        /* Fons comú per història i equip */
+        /* Fons comú per història i equip - CORREGIT */
         .seccio-fons {
-            background: #f9f9f9;
-            margin: 0;
+            background: #e6e3e3;
+            margin: 0 -20px;
+            padding: 0 20px;
         }
 
         /* Capçalera */
