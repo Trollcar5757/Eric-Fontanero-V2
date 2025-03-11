@@ -139,7 +139,53 @@
                 </div>
             </div>
         </div>
+<!-- Secció Ressenyes -->
+<div class="resenyes" style="background: #fff8f0; padding: 50px 20px; margin: 40px 0;">
+    <div class="container">
+        <h2 style="text-align: center; color: #1a5a99;">📣 Que diuen els nostres clients</h2>
+        
+        <div class="grid-resenyes" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px;">
+            <!-- Ressenya 1 -->
+            <div class="targeta-resenya" style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                    <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
+                    <div>
+                        <h4 style="margin: 0;">Montserrat G.</h4>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">Gràcia, Barcelona</p>
+                    </div>
+                </div>
+                <p style="font-style: italic;">"A les 2am el nen va deixar el joguet al WC. En Sergi va venir en 20 minuts i ho va solucionar sense fer malbé el Ninot! Heroes amb clau anglesa!"</p>
+                <div style="color: #ffb400; font-size: 1.2em;">★★★★★</div>
+            </div>
 
+            <!-- Ressenya 2 -->
+            <div class="targeta-resenya" style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                    <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
+                    <div>
+                        <h4 style="margin: 0;">Lluís M.</h4>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">Sant Andreu, Barcelona</p>
+                    </div>
+                </div>
+                <p style="font-style: italic;">"L'Ousman va fer un vídeo divertidíssim de com van arreglar la bassa al meu bar. Ara tothom veu que som seriosos però amb bon rotllo!"</p>
+                <div style="color: #ffb400; font-size: 1.2em;">★★★★★</div>
+            </div>
+
+            <!-- Ressenya 3 -->
+            <div class="targeta-resenya" style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                    <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
+                    <div>
+                        <h4 style="margin: 0;">Aina R.</h4>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">Eixample, Barcelona</p>
+                    </div>
+                </div>
+                <p style="font-style: italic;">"El Said em va enviar tot el pressupost amb emojis i detalls que fins i tot jo vaig entendre. Cap empresa explica tan bé on et surten els 20€!"</p>
+                <div style="color: #ffb400; font-size: 1.2em;">★★★★★</div>
+            </div>
+        </div>
+    </div>
+</div>
         <!-- Secció Contacte -->
         <div class="contacto">
             <h2>📲 Contacte ràpid</h2>
