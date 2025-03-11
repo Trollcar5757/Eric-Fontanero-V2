@@ -59,6 +59,50 @@
         }
 
         /* Resta d'estils... */
+          }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .historia-equip {
+            background: #f9f9f9;
+            padding: 40px 0;
+            margin: 30px 0;
+        }
+        .equip-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .membre-equip {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .alias {
+            color: #1a5a99;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        .whatsapp {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
     </style>
 </head>
 <body>
