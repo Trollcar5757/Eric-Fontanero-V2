@@ -34,8 +34,16 @@
 
         /* Secció història amplada completa */
       .historia-wrapper {
-            background: #f9f9f9;
-            padding: 50px 0; margin: 40px 0; width: 100%; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; width: 100vw;">
+            background: #e6e6e6;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
         }
 
         /* Resta d'estils... */
