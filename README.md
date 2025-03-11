@@ -33,18 +33,18 @@
         }
 
         /* Secció història amplada completa */
-      .historia-wrapper {
-            background: #e6e6e6;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            width: 100vw;
-            position: relative;
-            left: 50%;
-            right: 50%;
-            margin-left: -50vw;
-            margin-right: -50vw;
-        }
+     .historia-wrapper {
+    background: #e6e6e6;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin: 40px -50vw 50px -50vw; /* Top | Right | Bottom | Left */
+    padding: 60px 0;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0 100vmax #e6e6e6; /* "Vaza" el color fins als límits */
+    clip-path: inset(0 -100vmax); /* Permet l'ombra als costats */
+}
 
         /* Resta d'estils... */
           }
