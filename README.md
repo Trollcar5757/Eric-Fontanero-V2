@@ -111,17 +111,7 @@
         div class="historia-wrapper">
     
         /* Secció història amplada completa */
-     .historia-wrapper {
-    background: #e6e6e6;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin: 40px -50vw 50px -50vw; 
-    padding: 60px 0;
-    transform: translateX(-50%);
-    box-shadow: 0 0 0 100vmax #e6e6e6; 
-    clip-path: inset(0 -100vmax); 
+     <div class="historia-equip" style="background: ##e6e6e6; padding: 50px 0; margin: 40px 0; width: 100%; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; width: 100vw;">
 }
         <div class="historia-equip">
             <h2>📜 La nostra història</h2>
