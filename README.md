@@ -140,7 +140,7 @@
             </div>
         </div>
 <!-- Secció Ressenyes -->
-<div class="resenyes" style="background: #fff8f0; padding: 50px 20px; margin: 50px 0;">
+<div class="resenyes" style="background: #fff8f0; padding: 60px 30px; margin: 50px 0;">
     <div class="container">
         <h2 style="text-align: center; color: #1a5a99;">📣 Que diuen els nostres clients</h2>
         
