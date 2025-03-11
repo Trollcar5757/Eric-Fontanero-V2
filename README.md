@@ -140,7 +140,7 @@
             </div>
         </div>
 <!-- Secció Ressenyes -->
-<div class="resenyes" style="background: #fff8f0; padding: 50px 20px; margin: 40px 0;">
+<div class="resenyes" style="background: #fff8f0; padding: 50px 20px; margin: 50px 0;">
     <div class="container">
         <h2 style="text-align: center; color: #1a5a99;">📣 Que diuen els nostres clients</h2>
         
@@ -151,7 +151,7 @@
                     <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
                     <div>
                         <h4 style="margin: 0;">Montserrat G.</h4>
-                        <p style="margin: 0; font-size: 0.9em; color: #666;">Gràcia, Barcelona</p>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">Poble Nou, Manresa</p>
                     </div>
                 </div>
                 <p style="font-style: italic;">"A les 2am el nen va deixar el joguet al WC. En Sergi va venir en 20 minuts i ho va solucionar sense fer malbé el Ninot! Heroes amb clau anglesa!"</p>
@@ -164,7 +164,7 @@
                     <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
                     <div>
                         <h4 style="margin: 0;">Lluís M.</h4>
-                        <p style="margin: 0; font-size: 0.9em; color: #666;">Sant Andreu, Barcelona</p>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">Mion, Manresa</p>
                     </div>
                 </div>
                 <p style="font-style: italic;">"L'Ousman va fer un vídeo divertidíssim de com van arreglar la bassa al meu bar. Ara tothom veu que som seriosos però amb bon rotllo!"</p>
@@ -177,7 +177,7 @@
                     <div style="width: 50px; height: 50px; background: #1a5a99; border-radius: 50%;"></div>
                     <div>
                         <h4 style="margin: 0;">Aina R.</h4>
-                        <p style="margin: 0; font-size: 0.9em; color: #666;">Eixample, Barcelona</p>
+                        <p style="margin: 0; font-size: 0.9em; color: #666;">El Xup, Manresa</p>
                     </div>
                 </div>
                 <p style="font-style: italic;">"El Said em va enviar tot el pressupost amb emojis i detalls que fins i tot jo vaig entendre. Cap empresa explica tan bé on et surten els 20€!"</p>
