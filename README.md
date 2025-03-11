@@ -18,17 +18,27 @@
             padding: 20px;
         }
 
-        /* Seccions d'amplada completa - CORREGIT */
+        /* Seccions d'amplada completa - Millorat */
         .full-width {
             width: 100%;
-            padding: 40px 0;
         }
 
-        /* Fons comú per història i equip - CORREGIT */
+        /* Fons comú per història i equip - Corregit */
         .seccio-fons {
-            background: #e6e3e3;
-            margin: 0 -20px;
-            padding: 0 20px;
+            background: #f9f9f9;
+            padding: 40px 0;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            width: 100vw;
+        }
+
+        /* Ressenyes - Corregit */
+        .resenyes {
+            background: #fff8f0;
+            padding: 40px 0;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            width: 100vw;
         }
 
         /* Capçalera */
@@ -37,6 +47,8 @@
             color: white;
             text-align: center;
             padding: 2rem 0;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
         }
 
         /* Serveis */
@@ -78,10 +90,6 @@
         }
 
         /* Ressenyes */
-        .resenyes {
-            background: #fff8f0;
-        }
-        
         .grid-resenyes {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -138,6 +146,8 @@
             color: white;
             text-align: center;
             padding: 20px 0;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
         }
     </style>
     <!-- Font Awesome per icones -->
