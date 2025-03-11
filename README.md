@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Fontanero - Fontaneria Professional</title>
+    <title>Eric Fontanero S.L - Fontaneria Professional</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,11 +54,19 @@
             display: inline-block;
             margin: 20px 0;
         }
+        .imatge-urgent {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Eric Fontanero</h1>
+        <h1>Eric Fontanero S.L</h1>
         <p>Fontaneria professional i reparacions d'urgència</p>
     </header>
 
@@ -78,13 +86,24 @@
                 <p>Solucions ràpides i efectives</p>
             </div>
         </div>
+
+        <!-- Nova secció amb imatge i telèfon actualitzat -->
+        <div style="text-align: center; margin: 40px 0;">
+            <h2>🚰 Urgències de fontaneria</h2>
+            <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
+            <p>No esperis més! Contacta amb nosaltres ara mateix:</p>
+            <a href="https://wa.me/34694206969" class="whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp: 694 20 69 69
+            </a>
+            <p style="margin: 10px;">O truca ara: <a href="tel:694206969">694 20 69 69</a></p>
+        </div>
     </div>
 
     <div class="contacto">
         <div class="container">
             <h2>Contacte ràpid</h2>
-            <a href="tel:+34666666666" class="whatsapp">
-                <i class="fab fa-whatsapp"></i> Truca ara: 666 666 666
+            <a href="tel:694206969" class="whatsapp">
+                <i class="fab fa-whatsapp"></i> Truca ara: 694 20 69 69
             </a>
             <p>O omple el formulari i et trucarem:</p>
             <form>
@@ -97,20 +116,11 @@
                 </button>
             </form>
         </div>
-        <div style="text-align: center; margin: 40px 0;">
-    <h2>🚰 Urgències de fontaneria</h2>
-    <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
-    <p>No esperis més! Contacta amb nosaltres ara mateix:</p>
-    <a href="https://wa.me/34694206969" class="whatsapp">
-        <i class="fab fa-whatsapp"></i> WhatsApp: 694 20 69 69
-    </a>
-    <p style="margin: 10px;">O truca ara: <a href="tel:694206969">694 20 69 69</a></p>
-</div>
+    </div>
 
     <footer>
-        <p>© 2023 Eric Fontanero - Fontaneria professional</p>
+        <p>© 2025 Eric Fontanero S.L - Fontaneria professional</p>
         <p>Horari: 24h/365 dies - Certificat oficial N°: 12345678A</p>
     </footer>
 </body>
 </html>
-
