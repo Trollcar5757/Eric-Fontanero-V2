@@ -98,15 +98,7 @@
                 </button>
             </form>
         </div>
-    </div>
-
-    <footer>
-        <p>© 2023 Eric Fontanero - Fontaneria professional</p>
-        <p>Horari: 24h/365 dies - Certificat oficial N°: 12345678A</p>
-    </footer>
-</body>
-</html>
-<div style="text-align: center; margin: 40px 0;">
+        <div style="text-align: center; margin: 40px 0;">
     <h2>🚰 Urgències de fontaneria</h2>
     <img src="https://source.unsplash.com/600x400/?plumbing" alt="Fontaneria professional" class="imatge-urgent">
     <p>No esperis més! Contacta amb nosaltres ara mateix:</p>
@@ -115,3 +107,11 @@
     </a>
     <p style="margin: 10px;">O truca ara: <a href="tel:694206969">694 20 69 69</a></p>
 </div>
+
+    <footer>
+        <p>© 2023 Eric Fontanero - Fontaneria professional</p>
+        <p>Horari: 24h/365 dies - Certificat oficial N°: 12345678A</p>
+    </footer>
+</body>
+</html>
+
